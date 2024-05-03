@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class ArrayListAddRemoveExample {
+    public static void main(String[] args) {
+        // Creating an ArrayList to store integers
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        // Adding elements to the ArrayList
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+
+        // Printing the ArrayList
+        System.out.println("ArrayList after adding elements: " + numbers);
+
+        // Removing an element
+        numbers.remove(1);
+
+        // Printing the ArrayList after removal
+        System.out.println("ArrayList after removing element at index 1: " + numbers);
+    }
+}
