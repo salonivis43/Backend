@@ -1,0 +1,18 @@
+// Java program to add elements 
+// to a LinkedList 
+
+import java.util.*; 
+
+public class Name { 
+
+	public static void main(String args[]) 
+	{ 
+		LinkedList<String> l2 = new LinkedList<>(); 
+
+		l2.add("Saloni"); 
+		l2.add("Viswakrma"); 
+		l2.add(1, "Rwi"); 
+
+		System.out.println(l2); 
+	} 
+}
