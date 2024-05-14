@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>IntServName</servlet-name>
+		<servlet-class>com.saloni.DemoServletConfig</servlet-class>
+		
+		<init-param>
+			<param-name>count</param-name>
+			<param-value>10</param-value>
+		</init-param>
+	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IntSerName</servlet-name>
+		<url-pattern>/pqr</url-pattern>
+	
+	</servlet-mapping>
+
+</web-app>
